@@ -1,3 +1,39 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.top-image {
+    background-image: url(images/donation7.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 0%;
+}
+
+.white-center {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-top: 0;
+    padding-top: 220px;
+}
+
+.paragraph {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.Link-button {
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+
 }
