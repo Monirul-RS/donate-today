@@ -42,23 +42,26 @@ body {
 }
 
 .index {
+
     text-align: center;
 }
 
 .Donate {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .paragraph1 {
     font-weight: 300;
     font-size: 25px;
+    color: grey;
 }
 
 .container {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
 
 }
 
@@ -68,8 +71,8 @@ h2 {
     margin: 15px;
     position: relative;
     overflow: hidden;
-    padding: 60px 50px;
-    color: rgb(174, 173, 173);
+    padding: 50px 50px;
+    color: rgb(126, 126, 126);
     font-size: 30px;
 }
 
@@ -77,4 +80,13 @@ h2 {
     border: 2px solid tomato;
     background-color: rgb(249, 230, 223);
     color: tomato;
+}
+
+.second {
+    margin-top: 30px;
+}
+
+.second {
+    text-align: center;
+    margin-top: 200px;
 }
