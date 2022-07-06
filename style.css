@@ -91,18 +91,10 @@ h2 {
     margin-top: 200px;
 }
 
-.divider {
-    width: 1050px;
-    height: 3px;
-    background-color: gray;
-    display: inline-block;
-    margin-top: 100px;
-}
-
 .Flex {
     display: flex;
     width: 80%;
-    margin-left: 160px;
+    margin-left: 170px;
     margin-top: 30px;
 }
 
@@ -149,9 +141,43 @@ h3 {
     background-color: rgb(45, 42, 42);
     color: white;
     padding: 10px 10px;
-    text-align: center
+    text-align: center;
+    font-family: 'Lobster';
+    cursive;
+    font-size: 20px;
 }
 
 .color {
     color: rgb(239, 87, 61);
+}
+
+.amount {
+    margin: 0 20%;
+    padding: 10px;
+    font-size: 30px;
+    color: gray;
+
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(204, 193, 172)
+}
+
+.box {
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
 }
