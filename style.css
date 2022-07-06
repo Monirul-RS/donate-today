@@ -49,6 +49,7 @@ body {
 .Donate {
     font-size: 50px;
     font-weight: bolder;
+    padding-top: 30px;
 }
 
 .paragraph1 {
@@ -94,7 +95,7 @@ h2 {
 .Flex {
     display: flex;
     width: 80%;
-    margin-left: 170px;
+    margin-left: 180px;
     margin-top: 30px;
 }
 
@@ -136,21 +137,6 @@ h3 {
     font-size: 30px;
 }
 
-.footer {
-    margin-top: 100px;
-    background-color: rgb(45, 42, 42);
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    font-family: 'Lobster';
-    cursive;
-    font-size: 20px;
-}
-
-.color {
-    color: rgb(239, 87, 61);
-}
-
 .amount {
     margin: 0 20%;
     padding: 10px;
@@ -160,9 +146,9 @@ h3 {
 }
 
 .form-box {
-    padding: 10px;
+    padding: 100px 250px;
     border-radius: 5px;
-    background: rgb(204, 193, 172)
+    background: rgb(243, 232, 215)
 }
 
 .box {
@@ -178,6 +164,76 @@ h3 {
     font-size: 18px;
     color: black;
     padding: 15px 10px;
+    border-radius: 5px;
     border: none;
     outline: none;
+    background: rgb(208, 204, 204);
+}
+
+.form-box button {
+    color: black;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: tomato;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: rgb(45, 42, 42);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Lobster';
+    cursive;
+    font-size: 20px;
+}
+
+.color {
+    color: rgb(239, 87, 61);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 150%;
+    margin-left: 120px;
+    margin-top: 100px;
+
+}
+
+.survive {
+    padding: 20px 40px;
+    padding-top: 40px;
+}
+
+.survive img {
+    width: 80%;
+    padding-left: 80px;
+}
+
+.survival {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.paragraph2 {
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    color: grey;
 }
